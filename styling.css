@@ -1,0 +1,258 @@
+/* General styling - Layout*/
+
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+
+body {
+    font-family: 'Manjari', sans-serif;
+}
+
+.body-page1 {
+    background-image: url("img/homebackground.jpg");
+    position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.body-page2 {
+    background-image: url("img/skillsbackground.jpg");
+    position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+/* Margin for SVG logo-brand*/
+
+.monogram {
+    margin: 0px 21px 10px 21px;
+}
+
+/* Sections to Pages */
+.section1 {
+    background-color: rgba(96, 0, 128, 0.5);
+    padding-top: 10px;
+    transition: background-color 0.8s ease;
+}
+
+.section1:hover {
+    background-color: rgb(64, 64, 64, 0.5);
+}
+
+.section1 a{
+    text-decoration: none;
+}
+
+.section2 {
+    background-color: rgba(255, 51, 51, 0.5);
+    padding-top: 20px;
+    transition: background-color 0.8s ease;
+}
+
+.section2:hover {
+    background-color: rgb(64, 64, 64, 0.5);
+}
+
+.section2 a{
+    text-decoration: none;
+}
+
+.section3 {
+    background-color: rgba(179, 0, 89, 0.5);
+    padding-top: 10px;
+    transition: background-color 0.8s ease;
+}
+
+.section3:hover {
+    background-color: rgb(64, 64, 64, 0.5);
+}
+
+.section3 a{
+    text-decoration: none;
+}
+
+/* Text Styling */
+
+.pagetitle {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 3px 1px #ffffff;
+}
+
+.hero-heading {
+    text-align: center;
+    font-weight: 100;
+    padding: 5px 21px;
+    text-shadow: 2px -1px 2px #FFFFFF;
+}
+
+.subhero-headings {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+/* Hamburger navigation bar icon */
+.logo {
+    height: 43px;
+    background-color: transparent;
+    font-size: 2rem;
+    border: 0em;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    -moz-transform: rotate(27deg) translate(1px, 0px);
+    -webkit-transform: rotate(27deg) translate(1px, 0px);
+    -o-transform: rotate(27deg) translate(1px, 0px);
+    -ms-transform: rotate(27deg) translate(1px, 0px);
+    transform: rotate(27deg);  
+}
+
+/* Override styling for the navigation bar links */
+.navbar {
+    display: inline-block;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+.navlinks {
+    list-style: none;
+    padding: 2rem;
+}
+
+.navitem a {
+    color: #4d4d4d;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;  
+    background-color: #ffff00;
+    transition: background-color 0.8s ease;
+  }
+
+.navitem a:hover {
+    color: #fff;
+    background-color: #4d4d4d;
+    text-decoration: none;
+} 
+
+
+
+/*SVG Logo from Illustrator*/
+
+.st0{fill:#212647;}
+.st1{fill:#FFFFFF;}
+.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.4701;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#000000;stroke-width:0.7641;stroke-miterlimit:10;}
+
+
+/*Gallery Styling */
+
+.gallery {
+    background-color: rgb(255, 255, 0, 0.5);
+}
+
+.gallerycard {
+    background-color: rgba(179, 0, 89, 0.5);
+    padding-bottom: 0.55rem; 
+    transition: background-color 0.8s ease;
+}
+
+.gallerycard:hover {
+    background-color: rgb(64, 64, 64, 0.5);
+}
+
+
+.card1 {
+    background-image: url("img/sample1.png");
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card2 {
+    background-image: url("img/sample2.png");
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card3 {
+    background-image: url("img/sample3.png");
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card4 {
+    background-image: url("img/sample4.png");
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.btn-gallery {
+    background-color: rgb(255, 255, 0, 0.5);
+    border-radius: 1rem;
+    border-color: rgb(255, 255, 0, 0.5);
+}
+
+.btn-gallery:hover {
+    color:  #FFFFFF;
+    background-color: rgb(64, 64, 64, 0.5);
+}
+
+/*light-box feature for gallery*/
+.sample-img {
+    width: 100%;
+}
+
+
+/* Footer Styling */
+
+.footer {
+    color: #ffffff;
+    background-color: #4d4d4d;
+    margin-left: 0em;
+}
+
+.footer-text {
+    margin: 1em 0.8em;
+}
+
+.social-links {
+    padding: 8px 21px;
+}
+
+.social-links ul {
+    text-align: right;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #333333;
+    background-color: #a6a6a6;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color:#fafafa;;
+    background-color: #333333;
+}
+
+
+
