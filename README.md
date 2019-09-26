@@ -30,6 +30,8 @@ Testing
 
 Google Chrome to verify that the site is responsive and to fix margings or paddings.
 
+I had a problem with the alignment of my footer because I wanted to divide it in 3 sections. When I stood back and see that two sections were built with `ul` list I decided to leave them in one section with a `col-4` width and the copy right on the left as it's a longer line `col-8`
+
 
 
 Features
