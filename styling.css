@@ -231,6 +231,7 @@ body {
 
 .social-links {
     padding: 8px 21px;
+    float: right;
 }
 
 .social-links ul {
