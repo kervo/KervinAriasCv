@@ -16,13 +16,9 @@ body {
     z-index: -1;
 }
 
-.body-page2 {
-    background-image: url("img/skillsbackground.jpg");
-    position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+/* background for contact page */
+.contact {
+    background-color: rgb(64, 64, 64, 0.5); 
 }
 
 /* Margin for SVG logo-brand*/
@@ -73,6 +69,26 @@ body {
 .section3 a{
     text-decoration: none;
 }
+
+/* Contact Page styling */
+
+.contact-form {
+    margin: 20px 45px 25px 45px;
+}
+
+.contact-btn {
+    float: right;
+    margin-top: 1.5rem;
+    border: 0.2rem solid #ffff00;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}
+
+.contact-check ul {
+    display: inline-block;
+}
+
 
 /* Text Styling */
 
@@ -256,6 +272,7 @@ body {
     color:#fafafa;;
     background-color: #333333;
 }
+
 
 
 
