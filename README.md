@@ -12,7 +12,7 @@ The main goal of my site is to have an easy route for potential recruiters/emplo
 
 Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work/skills section.
 
-> My blog is created with the intention of experimenting with digital marketing. The aim of this section is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
+> The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
 
 Technologies
 =============================
@@ -30,7 +30,9 @@ Testing
 
 Google Chrome to verify that the site is responsive and to fix margings or paddings.
 
-I had a problem with the alignment of my footer because I wanted to divide it in 3 sections. When I stood back and see that two sections were built with `ul` list I decided to leave them in one section with a `col-4` width and the copy right on the left as it's a longer line `col-8`
+>Fixing footer links: I had a problem with the alignment of my footer because I wanted to divide it in 3 sections. When I stood back and see that two sections were built with `ul` I decided to leave them in one section with a `col-4` width and the copyright on the left as it's a longer line `col-8` then another problem came; links on the right don't look well.
+
+
 
 
 

@@ -221,11 +221,12 @@ body {
 .footer {
     color: #ffffff;
     background-color: #4d4d4d;
-    margin-left: 0em;
+    margin-top: 2rem;
 }
 
 .footer-text {
-    margin: 1em 0.8em;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
 }
 
 .social-links {
@@ -233,7 +234,8 @@ body {
 }
 
 .social-links ul {
-    text-align: right;
+    display: inline-block;
+    position: relative;
 }
 
 .social-links li a i {
