@@ -73,20 +73,41 @@ body {
 /* Contact Page styling */
 
 .contact-form {
-    margin: 5% 30% 0% 30%;
+    margin: 5% 25% 0% 25%;
 }
 
 .contact-btn {
     float: right;
     margin-top: 1.5rem;
-    border: 0.2rem solid #ffff00;
+    border: 0.12rem solid #ffff00;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     border-radius: 35px;
+    transition: background-color 0.8s ease;
+}
+
+.contact-btn:hover {
+  background-color:  #ffff00;
 }
 
 .contact-check ul {
     display: inline-block;
+}
+
+.field-border {
+    border: 0.12rem solid #ffff00;
+    -webkit-border-radius: 0px 0px 40px 0px;
+    -moz-border-radius: 0px 0px 40px 0px;
+    border-radius: 0px 0px 40px 0px;
+}
+
+.message-text {
+    float: left;
+    width: 100%;
+    border: 0.12rem solid #ffff00;
+    -webkit-border-radius: 0px 0px 40px 0px;
+    -moz-border-radius: 0px 0px 40px 0px;
+    border-radius: 0px 0px 40px 0px;
 }
 
 
@@ -237,7 +258,7 @@ body {
 .footer {
     color: #ffffff;
     background-color: #4d4d4d;
-    margin-top: 2rem;
+    padding-top: 0.8rem;
 }
 
 .footer-text {

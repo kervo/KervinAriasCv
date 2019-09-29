@@ -3,14 +3,14 @@ User Centric Milestone project for the Code Institute
 
 This project is designed to accomplish the concepts learned up to the User Centric module for the Code Institute.
 
-My name is Kervin Arias and I’m presenting here my personal portfolio with recent work samples and also my vision about design and art in a little mockup for a blog section. The name of my site is Kervo Solutions as this has been my title as a free-lance graphic designer for over 10 years.
+My name is Kervin Arias and I’m presenting here my personal portfolio with recent work samples and also my vision about design and art in a little mockup for a blog section. The name of my site is Kervo Solutions as this has been my title as a freelance graphic designer for over 10 years.
 
 UX
 ============================
 
 The main goal of my site is to have an easy route for potential recruiters/employers to download my cv and browse samples of my work.
 
-Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work/skills section.
+Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
 
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
 
@@ -33,6 +33,10 @@ Google Chrome to verify that the site is responsive and to fix margings or paddi
 >Fixing footer links: I had a problem with the alignment of my footer because I wanted to divide it in 3 sections. When I stood back and see that two sections were built with `ul` I decided to leave them in one section with a `col-4` width and the copyright on the left as it's a longer line `col-8` then another problem came; links on the right don't look well.
 
 Finally after this problem arrived I understood the use of `float: right;`
+
+### Contact Page
+
+During my testing `textarea` not showing correctly so I added `cols` attribute to change the default size to 30. It didn't work but I found some useful information here (https://stackoverflow.com/questions/30164301/css-width100-textarea-for-comment-responsive/30164488) by keepping the width to 100%, `textarea` takes all the space available for the contact form.
 
 
 
