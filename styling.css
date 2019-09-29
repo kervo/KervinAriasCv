@@ -16,6 +16,15 @@ body {
     z-index: -1;
 }
 
+.body-page2 {
+    background-image: url("img/skillsbackground.jpg");
+    position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
 /* background for contact page */
 .contact {
     background-color: rgb(64, 64, 64, 0.5); 
