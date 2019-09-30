@@ -28,7 +28,7 @@ Adobe Photoshop
 Testing
 ===========
 
-Google Chrome to verify that the site is responsive and to fix margings or paddings.
+Google Chrome to verify that the site is responsive and to fix margings or paddings. My first section was causing horizontal scroll and the simple answer was to place my `row` into a `conatiner` to discover and debug the problem I used (https://blog.wernull.com/2013/04/debug-ghost-css-elements-causing-unwanted-scrolling/)
 
 >Fixing footer links: I had a problem with the alignment of my footer because I wanted to divide it in 3 sections. When I stood back and see that two sections were built with `ul` I decided to leave them in one section with a `col-4` width and the copyright on the left as it's a longer line `col-8` then another problem came; links on the right don't look well.
 

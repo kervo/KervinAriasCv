@@ -14,6 +14,7 @@ body {
     background-size: cover;
     position: relative;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 .body-page2 {
@@ -37,6 +38,10 @@ body {
 }
 
 /* Sections to Pages */
+
+.intro {
+    max-width: 80%;
+}
 .section1 {
     background-color: rgba(96, 0, 128, 0.5);
     padding-top: 10px;
@@ -303,6 +308,12 @@ body {
     background-color: #333333;
 }
 
+
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
 
 
 
