@@ -277,7 +277,6 @@ body {
 
 .footer-text {
     font-size: 0.8rem;
-    margin-left: 0.8rem;
 }
 
 .social-links {
@@ -309,7 +308,14 @@ body {
 }
 
 
-
+@media screen and (max-width:360px){
+    
+    
+    .social-links {
+        padding: inherit;
+        float: right;
+    }
+}
 
 
 
