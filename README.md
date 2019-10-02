@@ -11,6 +11,7 @@ UX
 The main goal of my site is to have an easy route for potential recruiters/employers to download my cv and browse samples of my work.
 
 Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
+(https://github.com/kervo/user-centric/blob/master/docs/Copy%20of%20Copy%20of%20milestone-project-prototype.pdf)
 
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
 
@@ -20,6 +21,16 @@ Features
 * Hamburger menu: I wanted to keep my heading clean and most users are familiar with this triagram icon to navigate through the page.
 
 * CV download: Easy way to access my cv and download a PDF file.
+
+## Skills Page
+This page shows the software tools that I can use.
+
+## CV / Work
+Further information about my CV and roles in companies.
+
+## Contact Page
+With a form to send me an email.
+
 
 
 Technologies
@@ -51,6 +62,22 @@ During my testing `textarea` not showing correctly so I added `cols` attribute t
 When I switched to mobile mode to see the sections, `<i> icons` were showing big and pushing `<p>` to a narrow space, I added a breaking point for mobile ```@media screen and (max-width:567px)``` 
 
 
+Deployment
+=================
+
+I created a repository on Github and use the guide to set up a branch by adding the origin master.
+
+After that, I used the terminal on Visual Studio Code to link the two folders with the following steps:
+
+* Stablish a connection in between the two folders `git init` 
+
+* Adding all files that have been changed `git add .` and to verify what I was sending `git status`
+
+* Ready to send the files `git commit -m "message"`
+
+* Open the remote connection in between the two folders `git pull origin master`
+
+* Update the files on the repository `git push origin master`
 
 
 
