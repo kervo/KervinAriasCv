@@ -14,6 +14,14 @@ Image gallery with samples of my work can be find at the bottom close to the foo
 
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
 
+Features
+==========
+
+* Hamburger menu: I wanted to keep my heading clean and most users are familiar with this triagram icon to navigate through the page.
+
+* CV download: Easy way to access my cv and download a PDF file.
+
+
 Technologies
 =============================
 
@@ -38,16 +46,15 @@ Finally after this problem arrived I understood the use of `float: right;`
 
 During my testing `textarea` not showing correctly so I added `cols` attribute to change the default size to 30. It didn't work but I found some useful information here (https://stackoverflow.com/questions/30164301/css-width100-textarea-for-comment-responsive/30164488) by keepping the width to 100%, `textarea` takes all the space available for the contact form.
 
+### Skills Page
+
+When I switched to mobile mode to see the sections, `<i> icons` were showing big and pushing `<p>` to a narrow space, I added a breaking point for mobile ```@media screen and (max-width:567px)``` 
 
 
 
 
-Features
-==========
 
-* Hamburger menu: I wanted to keep my heading clean and most users are familiar with this triagram icon to navigate through the page.
 
-* CV download: Easy way to access my cv and download a PDF file.
 
 
 Credits
