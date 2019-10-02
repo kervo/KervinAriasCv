@@ -87,18 +87,18 @@ After that, I used the terminal on Visual Studio Code to link the two folders wi
 Credits
 ===
 
-HTML and CSS tag guides, colour codes, etc. [W3Schools] (https://www.w3schools.com) 
+_HTML and CSS tag guides, colour codes_ [W3Schools] (https://www.w3schools.com) 
 
 
-CV Page wording based on https://www.peopleperhour.com/hire-freelancers/design 
+_CV Page_ wording based on https://www.peopleperhour.com/hire-freelancers/design 
 
-Boostrap cheat sheet for layout css styling https://getbootstrap.com/docs/4.3/layout/grid/#equal-width-multi-row
+_Boostrap_ cheat sheet for layout css styling https://getbootstrap.com/docs/4.3/layout/grid/#equal-width-multi-row
 
-Guide to use SVG images on your website https://svgontheweb.com/#preparation
+Guide to use _SVG images_ on your website https://svgontheweb.com/#preparation
 
-Useful CSS generator https://html-css-js.com/css/generator/transform
+_CSS generator_ https://html-css-js.com/css/generator/transform
 
-Inspiration from design portfolios and blogs https://www.shillingtoneducation.com/blog/50-best-design-blogs/
+_Inspiration_ from design portfolios and blogs https://www.shillingtoneducation.com/blog/50-best-design-blogs/
 
 
 
