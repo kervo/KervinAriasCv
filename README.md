@@ -15,13 +15,6 @@ Image gallery with samples of my work can be find at the bottom close to the foo
 
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
 
-Features
-==========
-
-* Hamburger menu: I wanted to keep my heading clean and most users are familiar with this triagram icon to navigate through the page.
-
-* CV download: Easy way to access my cv and download a PDF file.
-
 ## Skills Page
 This page shows the software tools that I can use.
 
@@ -30,6 +23,17 @@ Further information about my CV and roles in companies.
 
 ## Contact Page
 With a form to send me an email.
+
+Features
+==========
+
+* Hamburger menu: I wanted to keep my heading clean and most users are familiar with this triagram icon to navigate through the page.
+
+* CV download: Easy way to access my cv and download a PDF file.
+
+## Work/Skills Timeline
+
+My class timeline is based on (http://bestjquery.com/tutorial/timeline/demo72/#) I didn't copy the code, I just used to guide my design and to challenge myself to get it as close as posible.
 
 
 
@@ -99,6 +103,8 @@ Guide to use _SVG images_ on your website https://svgontheweb.com/#preparation
 _CSS generator_ https://html-css-js.com/css/generator/transform
 
 _Inspiration_ from design portfolios and blogs https://www.shillingtoneducation.com/blog/50-best-design-blogs/
+
+_Timeline_ for the layout (http://bestjquery.com/tutorial/timeline/demo72/#)
 
 
 
