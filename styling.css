@@ -274,7 +274,7 @@
     
     .timeline {
         background-color: #000000;
-        padding: 50px;
+        padding: 3rem;
     }
     
     .timeline-item {
@@ -282,9 +282,9 @@
     }
     
     .icon-left i {
-        padding: 25px;
+        padding: 50px;
         color: #f2f2f2;
-        font-size: 4rem;
+        font-size: 8rem;
         background: #F0F0F0;
         background: -moz-linear-gradient(top, #F0F0F0 0%, #000000 100%);
         background: -webkit-linear-gradient(top, #F0F0F0 0%, #000000 100%);
@@ -297,14 +297,9 @@
         transform: translate(-15px, 0px);
     }
     
-    .job-title {
-        font-size: 1.5rem;
-        color: #E8E8E8;
-    }
-    
-    .p-skill {
-        color: #ffff00;
-        ;
+    .timeline-title {
+        color: #f2f2f2;
+        font-size: 2rem;
     }
     /* Footer Styling */
     
@@ -346,24 +341,16 @@
         ;
         background-color: #333333;
     }
-    
-    @media (min-width: 576px) {
-        .job-title {
-            font-size: 1rem;
-            padding-top: 50px;
-        }
+    /* @media (min-width: 576px) {
         .icon-left {
-            font-size: 0.8rem;
             width: 100%;
         }
-        .p-skill {
-            padding: 0px 45px;
-        }
         .icon-left i {
-            font-size: 0.9rem;
-            padding: 15px;
+            font-size: 0.4rem;
+            padding: 0.8rem;
         }
     }
+    
     
     @media screen and (max-width:360px) {
         .social-links {
@@ -371,3 +358,5 @@
             float: right;
         }
     }
+
+    */
