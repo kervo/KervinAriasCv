@@ -31,7 +31,7 @@
     /* Margin for SVG logo-brand*/
     
     .monogram {
-        margin: 0px 21px 10px 21px;
+        margin: 0px 30px 10px 30px;
     }
     /* Sections to Pages */
     
@@ -300,6 +300,12 @@
     .timeline-title {
         color: #f2f2f2;
         font-size: 2rem;
+    }
+    
+    .timeline-text {
+        color: #D8D8D8;
+        font-size: 0.9rem;
+        font-weight: 200;
     }
     /* Footer Styling */
     
