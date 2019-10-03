@@ -129,6 +129,15 @@
         text-shadow: 2px 3px 1px #ffffff;
     }
     
+    .cvtitle {
+        color: #a6a6a6;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 3px 1px #ff0066;
+    }
+    
     .hero-heading {
         text-align: center;
         font-weight: 100;
