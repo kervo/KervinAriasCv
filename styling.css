@@ -317,6 +317,11 @@
         font-size: 0.9rem;
         font-weight: 200;
     }
+    
+    .timeline-img {
+        padding: 0;
+        margin: 0;
+    }
     /* Footer Styling */
     
     .footer {
@@ -356,6 +361,16 @@
         color: #fafafa;
         ;
         background-color: #333333;
+    }
+    
+    @media screen and (max-width:768px) {
+        .social-links {
+            padding: inherit;
+            float: right;
+        }
+        .timeline-img {
+            width: 100% \9;
+        }
     }
     
     @media screen and (max-width:360px) {
