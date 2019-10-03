@@ -33,7 +33,7 @@ Features
 
 ## Work/Skills Timeline
 
-My class timeline is based on (http://bestjquery.com/tutorial/timeline/demo72/#) I didn't copy the code, I just used to guide my design and to challenge myself to get it as close as posible.
+My class timeline is based on (http://bestjquery.com/tutorial/timeline/demo72/#) I didn't copy the code, I just used to guide my layout design and to challenge myself to get a code by looking at this sample.
 
 
 
