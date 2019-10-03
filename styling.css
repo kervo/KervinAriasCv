@@ -217,6 +217,7 @@
         background-color: rgba(179, 0, 89, 0.5);
         padding-bottom: 0.55rem;
         transition: background-color 0.8s ease;
+        cursor: pointer;
     }
     
     .gallerycard:hover {

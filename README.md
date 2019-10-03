@@ -5,6 +5,8 @@ This project is designed to accomplish the concepts learned up to the User Centr
 
 My name is Kervin Arias and I’m presenting here my personal portfolio with recent work samples and also my vision about design and art in a little mockup for a blog section. The name of my site is Kervo Solutions as this has been my title as a freelance graphic designer for over 10 years.
 
+This how the project began (https://github.com/kervo/user-centric/blob/master/img/brainstroming.png)
+
 UX
 ============================
 
