@@ -277,33 +277,34 @@
         padding: 50px;
     }
     
+    .timeline-item {
+        border-top: 0.3rem solid #f2f2f2;
+    }
+    
     .icon-left i {
         padding: 25px;
         color: #f2f2f2;
-        font-size: 1.5rem;
-        background: #FFBC30;
-        background: -moz-linear-gradient(left, #FFBC30 0%, #FF8E2E 50%, #A30CC5 100%);
-        background: -webkit-linear-gradient(left, #FFBC30 0%, #FF8E2E 50%, #A30CC5 100%);
-        background: linear-gradient(to right, #FFBC30 0%, #FF8E2E 50%, #A30CC5 100%);
+        font-size: 4rem;
+        background: #F0F0F0;
+        background: -moz-linear-gradient(top, #F0F0F0 0%, #000000 100%);
+        background: -webkit-linear-gradient(top, #F0F0F0 0%, #000000 100%);
+        background: linear-gradient(to bottom, #F0F0F0 0%, #000000 100%);
         float: left;
-        -moz-transform: translate(-16px, 0px);
-        -webkit-transform: translate(-16px, 0px);
-        -o-transform: translate(-16px, 0px);
+        -moz-transform: translate(-15px, 0px);
+        -webkit-transform: translate(-15px, 0px);
+        -o-transform: translate(-15px, 0px);
         -ms-transform: translate(-15px, 0px);
         transform: translate(-15px, 0px);
-        -moz-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
     }
     
     .job-title {
         font-size: 1.5rem;
+        color: #E8E8E8;
     }
     
     .p-skill {
-        color: #660033;
+        color: #ffff00;
+        ;
     }
     /* Footer Styling */
     
@@ -346,17 +347,13 @@
         background-color: #333333;
     }
     
-    @media screen and (max-width:360px) {
-        .social-links {
-            padding: inherit;
-            float: right;
-        }
+    @media (min-width: 576px) {
         .job-title {
             font-size: 1rem;
-            margin-top: 120px;
+            padding-top: 50px;
         }
         .icon-left {
-            font-size: 1rem;
+            font-size: 0.8rem;
             width: 100%;
         }
         .p-skill {
@@ -365,5 +362,12 @@
         .icon-left i {
             font-size: 0.9rem;
             padding: 15px;
+        }
+    }
+    
+    @media screen and (max-width:360px) {
+        .social-links {
+            padding: inherit;
+            float: right;
         }
     }
