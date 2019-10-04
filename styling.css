@@ -30,7 +30,7 @@
         position: relative;
         z-index: -1;
     }
-    /* -------------------background for contact page */
+    /* -------------------background for pages */
     
     .contact {
         background: #FFFFFF;
@@ -38,10 +38,17 @@
         background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
         background: linear-gradient(to bottom, #FFFFFF 0%, #DBCA13 100%);
     }
+    
+    .cv-skills {
+        background: #FFFFFF;
+        background: -moz-linear-gradient(top, #FFFFFF 0%, #52A7D1 100%);
+        background: -webkit-linear-gradient(top, #FFFFFF 0%, #52A7D1 100%);
+        background: linear-gradient(to bottom, #FFFFFF 0%, #52A7D1 100%);
+    }
     /* ---------------------Margin for SVG logo-brand*/
     
     .monogram {
-        margin: 0px 110px 10px 110px;
+        margin: 0px 80px 10px 80px;
     }
     /* Sections to Pages */
     
@@ -290,7 +297,7 @@
     /*  Timeline styling */
     
     .timeline {
-        background-color: #000000;
+        background-color: #528199;
         padding: 3rem;
     }
     
@@ -302,10 +309,10 @@
         padding: 50px;
         color: #f2f2f2;
         font-size: 4rem;
-        background: #F0F0F0;
-        background: -moz-linear-gradient(top, #F0F0F0 0%, #000000 100%);
-        background: -webkit-linear-gradient(top, #F0F0F0 0%, #000000 100%);
-        background: linear-gradient(to bottom, #F0F0F0 0%, #000000 100%);
+        background: #FFFFFF;
+        background: -moz-linear-gradient(top, #FFFFFF 0%, #528199 100%);
+        background: -webkit-linear-gradient(top, #FFFFFF 0%, #528199 100%);
+        background: linear-gradient(to bottom, #FFFFFF 0%, #528199 100%);
         float: left;
         -moz-transform: translate(-15px, 0px);
         -webkit-transform: translate(-15px, 0px);
@@ -381,6 +388,11 @@
     }
     
     @media screen and (max-width:360px) {
+        .icon-left i {
+            padding: 25px;
+            color: #f2f2f2;
+            font-size: 1.8rem;
+        }
         .social-links {
             padding: inherit;
             float: right;
