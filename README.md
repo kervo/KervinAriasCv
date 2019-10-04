@@ -12,18 +12,24 @@ UX
 
 The main goal of my site is to have an easy route for potential recruiters/employers to download my cv and browse samples of my work.
 
+After some feedback from users, I decided to change the colour scheme based on this useful link (https://coolors.co/fcf59e-b7dbe2-7c9cac-a2c5ac-b7c4ca)
+
+* `#DBCA13`
+* `#63CBFF`
+* `528199`
+
 Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
 (https://github.com/kervo/user-centric/blob/master/docs/Copy%20of%20Copy%20of%20milestone-project-prototype.pdf)
 
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
 
-## Skills Page
+*Skills Page*
 This page shows the software tools that I can use.
 
-## CV / Work
+*CV/Work**
 Further information about my CV and roles in companies.
 
-## Contact Page
+*Contact page**
 With a form to send me an email.
 
 Features
