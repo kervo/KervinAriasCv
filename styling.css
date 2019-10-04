@@ -378,6 +378,11 @@
     }
     
     @media screen and (max-width:768px) {
+        .icon-left i {
+            padding: 35px;
+            color: #f2f2f2;
+            font-size: 2rem;
+        }
         .social-links {
             padding: inherit;
             float: right;
@@ -398,22 +403,3 @@
             float: right;
         }
     }
-    /* Code unable for the moment  
-
-
-
-    @media (min-width: 576px) {
-        .icon-left i {
-            font-size: 0.4rem;
-            padding: 0.8rem;
-        }
-    }
-    
-    @media screen and (max-width:360px) {
-        
-        .icon-left i {
-            font-size: 0.4rem;
-            padding: 0.8rem;
-        }
-    }
-    */
