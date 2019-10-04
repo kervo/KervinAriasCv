@@ -17,6 +17,7 @@ After some feedback from users, I decided to change the colour scheme based on t
 * `#DBCA13`
 * `#652A7D1`
 * `#528199`
+* `#519364`
 
 Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
 (https://github.com/kervo/user-centric/blob/master/docs/Copy%20of%20Copy%20of%20milestone-project-prototype.pdf)
