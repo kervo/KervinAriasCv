@@ -15,8 +15,8 @@ The main goal of my site is to have an easy route for potential recruiters/emplo
 After some feedback from users, I decided to change the colour scheme based on this useful link (https://coolors.co/fcf59e-b7dbe2-7c9cac-a2c5ac-b7c4ca)
 
 * `#DBCA13`
-* `#63CBFF`
-* `528199`
+* `#652A7D1`
+* `#528199`
 
 Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
 (https://github.com/kervo/user-centric/blob/master/docs/Copy%20of%20Copy%20of%20milestone-project-prototype.pdf)
@@ -64,6 +64,8 @@ Google Chrome to verify that the site is responsive and to fix margings or paddi
 >Fixing footer links: I had a problem with the alignment of my footer because I wanted to divide it in 3 sections. When I stood back and see that two sections were built with `ul` I decided to leave them in one section with a `col-4` width and the copyright on the left as it's a longer line `col-8` then another problem came; links on the right don't look well.
 
 Finally after this problem arrived I understood the use of `float: right;`
+
+Another good way of testing was by sharing the link, people see the content on different devices, browsers, etc. Specially mobile phones. 
 
 ### Contact Page
 
