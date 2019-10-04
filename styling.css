@@ -34,9 +34,9 @@
     
     .contact {
         background: #FFFFFF;
-        background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 65%, #DBCA13 100%);
-        background: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 65%, #DBCA13 100%);
-        background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 65%, #DBCA13 100%);
+        background: -moz-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
+        background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
+        background: linear-gradient(to bottom, #FFFFFF 0%, #DBCA13 100%);
     }
     /* ---------------------Margin for SVG logo-brand*/
     
