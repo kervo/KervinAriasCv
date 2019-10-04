@@ -5,6 +5,13 @@
         font-family: 'Manjari', sans-serif;
     }
     
+    .background-grad {
+        background: #FFFFFF;
+        background: -moz-linear-gradient(top, #FFFFFF 0%, #528199 100%);
+        background: -webkit-linear-gradient(top, #FFFFFF 0%, #528199 100%);
+        background: linear-gradient(to bottom, #FFFFFF 0%, #528199 100%);
+    }
+    
     .body-page1 {
         background-image: url("img/homebackground.jpg");
         position: center top;
@@ -326,12 +333,12 @@
     
     .footer {
         color: #ffffff;
-        background-color: #4d4d4d;
+        background-color: #528199;
         padding-top: 0.8rem;
     }
     
     .footer-text {
-        font-size: 0.8rem;
+        color: #63CBFF;
     }
     
     .social-links {
