@@ -28,7 +28,7 @@ Image gallery with samples of my work can be find at the bottom close to the foo
 This page shows the software tools that I can use.
 
 *CV/Work**
-Further information about my CV and roles in companies.
+Further information about my CV and roles in companies. Font Awesome is used to illustrate the type of industries that's worked for.
 
 *Contact page**
 With a form to send me an email.
