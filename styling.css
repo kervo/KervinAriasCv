@@ -326,7 +326,9 @@
     
     .timeline-title {
         color: #52A7D1;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        font-weight: 600;
     }
     
     .timeline-text {
