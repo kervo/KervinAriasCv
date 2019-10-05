@@ -44,6 +44,8 @@ Features
 
 My class timeline is based on (http://bestjquery.com/tutorial/timeline/demo72/#) I didn't copy the code, I just used to guide my layout design and to challenge myself to get a code by looking at this sample.
 
+I customised the decoration of my list item by using a svg graphic from this source (hhttps://www.flaticon.com/)
+
 
 
 Technologies

@@ -304,6 +304,12 @@
         padding: 1.5rem 3rem 0rem 3rem;
     }
     
+    .timeline ul {
+        list-style-image: url(img/bullet-point/3d.png);
+        padding: 0;
+        margin: 0;
+    }
+    
     .timeline-item {
         border-top: 1px solid #528199;
     }
