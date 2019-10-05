@@ -146,11 +146,14 @@
         text-align: center;
     }
     
-    .cvtitle {
-        color: #a6a6a6;
-        font-size: 2rem;
+    .cvtitle,
+    .cvjob {
+        color: #528199;
         text-transform: uppercase;
         font-weight: 700;
+    }
+    
+    .cvtitle {
         text-align: center;
     }
     
@@ -322,18 +325,18 @@
     }
     
     .timeline-title {
-        color: #f2f2f2;
-        font-size: 2rem;
+        color: #52A7D1;
+        font-size: 1.5rem;
     }
     
     .timeline-text {
-        color: #D8D8D8;
+        color: #528199;
         font-size: 0.9rem;
         font-weight: 200;
     }
     
-    .timeline-img {
-        padding: 0;
+    .timeline-slides {
+        padding-bottom: 0.7rem;
         margin: 0;
     }
     /* Footer Styling */
