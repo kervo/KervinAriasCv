@@ -31,7 +31,8 @@
         }
         /* -------------------background for pages */
         
-        .contact {
+        .contact,
+        .skills {
             background: #FFFFFF;
             background: -moz-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
             background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
@@ -309,9 +310,14 @@
         }
         /*  ------------------------------------- Skills Pages styling */
         
-        .skill-card {
-            background-image: url("img/skills-img/editorial.jpg");
-            padding: 30px;
+        .skills-area {
+            margin-bottom: 1rem;
+        }
+        
+        .skill-card,
+        .skill-card2,
+        .skill-card3 {
+            padding: 20px;
             position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -358,6 +364,18 @@
                 -ms-transform: translate(0px, 0px);
                 transform: translate(0px, 0px);
             }
+        }
+        
+        .skill-card {
+            background-image: url("img/skills-img/editorial.jpg");
+        }
+        
+        .skill-card2 {
+            background-image: url("img/skills-img/barnding.jpg");
+        }
+        
+        .skill-card3 {
+            background-image: url("img/skills-img/webdesign.jpg");
         }
         
         .bar-style {
