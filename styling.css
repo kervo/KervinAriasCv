@@ -122,7 +122,12 @@
         }
         
         .skills-heading {
-            padding-top: 10%;
+            padding: 1rem;
+            text-align: right;
+        }
+        
+        .skill-p {
+            padding-top: 1rem;
         }
         /* Hamburger navigation bar icon */
         
