@@ -1,407 +1,464 @@
-    /* ------------------------------General styling - Layout*/
-    
-    @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
-    body {
-        font-family: 'Manjari', sans-serif;
-    }
-    
-    .background-grad {
-        background: #FFFFFF;
-        background: -moz-linear-gradient(top, #FFFFFF 0%, #528199 100%);
-        background: -webkit-linear-gradient(top, #FFFFFF 0%, #528199 100%);
-        background: linear-gradient(to bottom, #FFFFFF 0%, #528199 100%);
-    }
-    
-    .body-page1,
-    .body-page2 {
-        position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        z-index: -1;
-        overflow-x: hidden;
-    }
-    
-    .body-page1 {
-        background-image: url("img/homebackground.jpg");
-    }
-    
-    .body-page2 {
-        background-image: url("img/skillsbackground.jpg");
-    }
-    /* -------------------background for pages */
-    
-    .skills,
-    .contact {
-        background: #FFFFFF;
-        background: -moz-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
-        background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
-        background: linear-gradient(to bottom, #FFFFFF 0%, #DBCA13 100%);
-    }
-    /* ---------------------Margin for SVG logo-brand*/
-    
-    .monogram {
-        margin: 0px 80px 10px 80px;
-    }
-    /* Sections to Pages */
-    
-    .intro {
-        max-width: 80%;
-    }
-    
-    .section1 {
-        background-color: #52A7D1;
-        padding-top: 10px;
-        transition: background-color 0.8s ease;
-    }
-    
-    .section1:hover {
-        background-color: rgb(64, 64, 64, 0.5);
-    }
-    
-    .section1 a {
-        text-decoration: none;
-    }
-    
-    .section2 {
-        background-color: #528199;
-        padding-top: 15px;
-        transition: background-color 0.8s ease;
-    }
-    
-    .section2:hover {
-        background-color: rgb(64, 64, 64, 0.5);
-    }
-    
-    .section2 a {
-        text-decoration: none;
-    }
-    
-    .section3 {
-        background-color: #519364;
-        padding-top: 10px;
-        transition: background-color 0.8s ease;
-    }
-    
-    .section3:hover {
-        background-color: rgb(64, 64, 64, 0.5);
-    }
-    
-    .section3 a {
-        text-decoration: none;
-    }
-    /* Text Styling */
-    
-    .pagetitle {
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        text-align: center;
-    }
-    
-    .cvtitle,
-    .cvjob {
-        color: #528199;
-        text-transform: uppercase;
-        font-weight: 700;
-    }
-    
-    .cvtitle {
-        text-align: center;
-    }
-    
-    .hero-heading {
-        text-align: center;
-        font-weight: 100;
-        padding: 5px 21px;
-    }
-    
-    .subhero-headings {
-        text-align: center;
-        color: #e6e6e6;
-        font-weight: 100;
-    }
-    /* Hamburger navigation bar icon */
-    
-    .logo {
-        height: 43px;
-        background-color: transparent;
-        font-size: 2rem;
-        border: 0em;
-        transition: transform 0.3s ease;
-    }
-    
-    .logo:hover {
-        -moz-transform: rotate(27deg) translate(1px, 0px);
-        -webkit-transform: rotate(27deg) translate(1px, 0px);
-        -o-transform: rotate(27deg) translate(1px, 0px);
-        -ms-transform: rotate(27deg) translate(1px, 0px);
-        transform: rotate(27deg);
-    }
-    /* Override styling for the navigation bar links */
-    
-    .navbar {
-        display: inline-block;
-        padding: 1.3rem;
-        font-size: 1.5rem;
-    }
-    
-    .navlinks {
-        list-style: none;
-        padding: 2rem;
-    }
-    
-    .navitem a {
-        color: #4d4d4d;
-        text-decoration: none;
-        padding: 0.3rem 0.5rem;
-        background-color: #ffff00;
-        transition: background-color 0.8s ease;
-    }
-    
-    .navitem a:hover {
-        color: #fff;
-        background-color: #4d4d4d;
-        text-decoration: none;
-    }
-    /*SVG Logo from Illustrator*/
-    
-    .st0 {
-        fill: #212647;
-    }
-    
-    .st1 {
-        fill: #FFFFFF;
-    }
-    
-    .st2 {
-        fill: #FFFFFF;
-        stroke: #FFFFFF;
-        stroke-width: 0.4701;
-        stroke-miterlimit: 10;
-    }
-    
-    .st3 {
-        fill: none;
-        stroke: #000000;
-        stroke-width: 0.7641;
-        stroke-miterlimit: 10;
-    }
-    /*Gallery Styling */
-    
-    .gallery {
-        background-color: rgb(153, 153, 153, 0.5)
-    }
-    
-    .gallerycard {
-        background-color: rgba(179, 0, 89, 0.5);
-        padding-bottom: 0.55rem;
-        transition: background-color 0.8s ease;
-        cursor: pointer;
-    }
-    
-    .gallerycard:hover {
-        background-color: rgb(64, 64, 64, 0.5);
-    }
-    
-    .card1 {
-        background-image: url("img/sample1.png");
-        position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .card2 {
-        background-image: url("img/sample2.png");
-        position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .card3 {
-        background-image: url("img/sample3.png");
-        position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .card4 {
-        background-image: url("img/sample4.png");
-        position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .btn-gallery {
-        background-color: rgb(255, 255, 0, 0.5);
-        border-radius: 1rem;
-        border-color: rgb(255, 255, 0, 0.5);
-    }
-    
-    .btn-gallery:hover {
-        color: #FFFFFF;
-        background-color: rgb(64, 64, 64, 0.5);
-    }
-    /*light-box feature for gallery*/
-    
-    .sample-img {
-        width: 100%;
-    }
-    /*  Timeline styling */
-    
-    .timeline {
-        padding: 1.5rem 3rem 0rem 3rem;
-    }
-    
-    .timeline ul {
-        list-style-image: url(img/bullet-point/3d.png);
-        margin: 0;
-    }
-    
-    .timeline-item {
-        border-top: 1px solid #528199;
-    }
-    
-    .icon-left i {
-        padding: 50px;
-        color: #E3ECED;
-        font-size: 4rem;
-        background: #528199;
-        background: -moz-linear-gradient(top, #528199 0%, #FFFFFF 100%);
-        background: -webkit-linear-gradient(top, #528199 0%, #FFFFFF 100%);
-        background: linear-gradient(to bottom, #528199 0%, #FFFFFF 100%);
-        float: left;
-        -moz-transform: translate(-15px, 0px);
-        -webkit-transform: translate(-15px, 0px);
-        -o-transform: translate(-15px, 0px);
-        -ms-transform: translate(-15px, 0px);
-        transform: translate(-15px, 0px);
-    }
-    
-    .timeline-title {
-        color: #52A7D1;
-        font-size: 1.7rem;
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-    
-    .timeline-text {
-        color: #528199;
-        font-size: 0.9rem;
-        font-weight: 200;
-    }
-    
-    .timeline-slides {
-        padding-bottom: 0.7rem;
-        margin: 0;
-    }
-    /* Contact Page styling */
-    
-    .contact-form {
-        margin: 5% 15% 0% 15%;
-    }
-    
-    .contact-btn {
-        float: right;
-        margin: 0.5rem 1.5rem 1rem 1.5rem;
-        border: 0.12rem solid #ffff00;
-        -webkit-border-radius: 35px;
-        -moz-border-radius: 35px;
-        border-radius: 35px;
-        transition: background-color 0.8s ease;
-    }
-    
-    .contact-btn:hover {
-        background-color: #ffff00;
-    }
-    
-    .contact-check ul {
-        display: inline-block;
-    }
-    
-    .field-border {
-        border: 0.12rem solid #ffff00;
-        -webkit-border-radius: 0px 0px 40px 0px;
-        -moz-border-radius: 0px 0px 40px 0px;
-        border-radius: 0px 0px 40px 0px;
-    }
-    
-    .message-text {
-        float: left;
-        width: 100%;
-        border: 0.12rem solid #ffff00;
-        -webkit-border-radius: 0px 0px 40px 0px;
-        -moz-border-radius: 0px 0px 40px 0px;
-        border-radius: 0px 0px 40px 0px;
-    }
-    /* Footer Styling */
-    
-    .footer {
-        color: #ffffff;
-        background-color: #528199;
-        padding-top: 0.8rem;
-    }
-    
-    .footer-text {
-        color: #52A7D1;
-    }
-    
-    .social-links {
-        padding: 8px 21px;
-        float: right;
-    }
-    
-    .social-links ul {
-        display: inline-block;
-        position: relative;
-    }
-    
-    .social-links li a i {
-        width: 32px;
-        height: 32px;
-        padding: 0.5rem;
-        border-radius: 50%;
-        color: #333333;
-        background-color: #a6a6a6;
-        transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-    }
-    
-    .social-links li a i:hover {
-        color: #fafafa;
-        ;
-        background-color: #333333;
-    }
-    
-    @media screen and (max-width:768px) {
-        .icon-left i {
-            padding: 35px;
-            color: #f2f2f2;
+        /* ------------------------------General styling - Layout*/
+        
+        @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+        body {
+            font-family: 'Manjari', sans-serif;
+        }
+        
+        .background-grad {
+            background: #FFFFFF;
+            background: -moz-linear-gradient(top, #FFFFFF 0%, #528199 100%);
+            background: -webkit-linear-gradient(top, #FFFFFF 0%, #528199 100%);
+            background: linear-gradient(to bottom, #FFFFFF 0%, #528199 100%);
+        }
+        
+        .body-page1,
+        .body-page2 {
+            position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            z-index: -1;
+            overflow-x: hidden;
+        }
+        
+        .body-page1 {
+            background-image: url("img/homebackground.jpg");
+        }
+        
+        .body-page2 {
+            background-image: url("img/skillsbackground.jpg");
+        }
+        /* -------------------background for pages */
+        
+        .contact {
+            background: #FFFFFF;
+            background: -moz-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
+            background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
+            background: linear-gradient(to bottom, #FFFFFF 0%, #DBCA13 100%);
+        }
+        /* ---------------------Margin for SVG logo-brand*/
+        
+        .monogram {
+            margin: 0px 80px 10px 80px;
+        }
+        /* Sections to Pages */
+        
+        .intro {
+            max-width: 80%;
+        }
+        
+        .section1 {
+            background-color: #52A7D1;
+            padding-top: 10px;
+            transition: background-color 0.8s ease;
+        }
+        
+        .section1:hover {
+            background-color: rgb(64, 64, 64, 0.5);
+        }
+        
+        .section1 a {
+            text-decoration: none;
+        }
+        
+        .section2 {
+            background-color: #528199;
+            padding-top: 15px;
+            transition: background-color 0.8s ease;
+        }
+        
+        .section2:hover {
+            background-color: rgb(64, 64, 64, 0.5);
+        }
+        
+        .section2 a {
+            text-decoration: none;
+        }
+        
+        .section3 {
+            background-color: #519364;
+            padding-top: 10px;
+            transition: background-color 0.8s ease;
+        }
+        
+        .section3:hover {
+            background-color: rgb(64, 64, 64, 0.5);
+        }
+        
+        .section3 a {
+            text-decoration: none;
+        }
+        /* Text Styling */
+        
+        .pagetitle {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .cvtitle,
+        .cvjob {
+            color: #528199;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        
+        .cvtitle,
+        .skills-heading {
+            text-align: center;
+        }
+        
+        .hero-heading {
+            text-align: center;
+            font-weight: 100;
+            padding: 5px 21px;
+        }
+        
+        .subhero-headings {
+            text-align: center;
+            color: #e6e6e6;
+            font-weight: 100;
+        }
+        /* Hamburger navigation bar icon */
+        
+        .logo {
+            height: 43px;
+            background-color: transparent;
             font-size: 2rem;
+            border: 0em;
+            transition: transform 0.3s ease;
         }
-        .social-links {
-            padding: inherit;
-            float: right;
+        
+        .logo:hover {
+            -moz-transform: rotate(27deg) translate(1px, 0px);
+            -webkit-transform: rotate(27deg) translate(1px, 0px);
+            -o-transform: rotate(27deg) translate(1px, 0px);
+            -ms-transform: rotate(27deg) translate(1px, 0px);
+            transform: rotate(27deg);
         }
-        .timeline-img {
-            width: 100% \9;
+        /* Override styling for the navigation bar links */
+        
+        .navbar {
+            display: inline-block;
+            padding: 1.3rem;
+            font-size: 1.5rem;
         }
-    }
-    
-    @media screen and (max-width:360px) {
+        
+        .navlinks {
+            list-style: none;
+            padding: 2rem;
+        }
+        
+        .navitem a {
+            color: #4d4d4d;
+            text-decoration: none;
+            padding: 0.3rem 0.5rem;
+            background-color: #ffff00;
+            transition: background-color 0.8s ease;
+        }
+        
+        .navitem a:hover {
+            color: #fff;
+            background-color: #4d4d4d;
+            text-decoration: none;
+        }
+        /*SVG Logo from Illustrator*/
+        
+        .st0 {
+            fill: #212647;
+        }
+        
+        .st1 {
+            fill: #FFFFFF;
+        }
+        
+        .st2 {
+            fill: #FFFFFF;
+            stroke: #FFFFFF;
+            stroke-width: 0.4701;
+            stroke-miterlimit: 10;
+        }
+        
+        .st3 {
+            fill: none;
+            stroke: #000000;
+            stroke-width: 0.7641;
+            stroke-miterlimit: 10;
+        }
+        /*---------------------------------Gallery Styling */
+        
+        .gallery {
+            background-color: rgb(153, 153, 153, 0.5)
+        }
+        
+        .gallerycard {
+            background-color: rgba(179, 0, 89, 0.5);
+            padding-bottom: 0.55rem;
+            transition: background-color 0.8s ease;
+            cursor: pointer;
+        }
+        
+        .gallerycard:hover {
+            background-color: rgb(64, 64, 64, 0.5);
+        }
+        
+        .card1 {
+            background-image: url("img/sample1.png");
+            position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .card2 {
+            background-image: url("img/sample2.png");
+            position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .card3 {
+            background-image: url("img/sample3.png");
+            position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .card4 {
+            background-image: url("img/sample4.png");
+            position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .btn-gallery {
+            background-color: rgb(255, 255, 0, 0.5);
+            border-radius: 1rem;
+            border-color: rgb(255, 255, 0, 0.5);
+        }
+        
+        .btn-gallery:hover {
+            color: #FFFFFF;
+            background-color: rgb(64, 64, 64, 0.5);
+        }
+        /*light-box feature for gallery*/
+        
+        .sample-img {
+            width: 100%;
+        }
+        /*  ----------------------------Timeline styling */
+        
+        .timeline {
+            padding: 1.5rem 3rem 0rem 3rem;
+        }
+        
+        .timeline ul {
+            list-style-image: url(img/bullet-point/3d.png);
+            margin: 0;
+        }
+        
+        .timeline-item {
+            border-top: 1px solid #528199;
+        }
+        
         .icon-left i {
-            padding: 25px;
-            color: #f2f2f2;
-            font-size: 1.8rem;
+            padding: 50px;
+            color: #E3ECED;
+            font-size: 4rem;
+            background: #528199;
+            background: -moz-linear-gradient(top, #528199 0%, #FFFFFF 100%);
+            background: -webkit-linear-gradient(top, #528199 0%, #FFFFFF 100%);
+            background: linear-gradient(to bottom, #528199 0%, #FFFFFF 100%);
+            float: left;
+            -moz-transform: translate(-15px, 0px);
+            -webkit-transform: translate(-15px, 0px);
+            -o-transform: translate(-15px, 0px);
+            -ms-transform: translate(-15px, 0px);
+            transform: translate(-15px, 0px);
         }
+        
+        .timeline-title {
+            color: #52A7D1;
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        
+        .timeline-text {
+            color: #528199;
+            font-size: 0.9rem;
+            font-weight: 200;
+        }
+        
+        .timeline-slides {
+            padding-bottom: 0.7rem;
+            margin: 0;
+        }
+        /*  ------------------------------------- Skills Pages styling */
+        
+        .skill-card {
+            background-image: url("img/skills-img/editorial.jpg");
+            width: 100%;
+            height: 300px;
+            position: relative;
+            -webkit-animation: skills 5s ease;
+        }
+        /* Safari 4.0 - 8.0 */
+        
+        animation: mymove 5s infinite;
+        /* Safari 4.0 - 8.0 */
+        
+        @-webkit-keyframes skills {
+            from {
+                -moz-transform: translate(-40px, 0px);
+                -webkit-transform: translate(-40px, 0px);
+                -o-transform: translate(-40px, 0px);
+                -ms-transform: translate(-40px, 0px);
+                transform: translate(-40px, 0px);
+            }
+            to {
+                -moz-transform: translate(0px, 0px);
+                -webkit-transform: translate(0px, 0px);
+                -o-transform: translate(0px, 0px);
+                -ms-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+            }
+        }
+        
+        @keyframes skills {
+            from {
+                -moz-transform: translate(-40px, 0px);
+                -webkit-transform: translate(-40px, 0px);
+                -o-transform: translate(-40px, 0px);
+                -ms-transform: translate(-40px, 0px);
+                transform: translate(-40px, 0px);
+            }
+            to {
+                -moz-transform: translate(0px, 0px);
+                -webkit-transform: translate(0px, 0px);
+                -o-transform: translate(0px, 0px);
+                -ms-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+            }
+        }
+        
+        .bar-style {
+            background-color: #DBCA13;
+            height: 1.5rem;
+        }
+        /* ------------------------------Contact Page styling */
+        
+        .contact-form {
+            margin: 5% 15% 0% 15%;
+        }
+        
+        .contact-btn {
+            float: right;
+            margin: 0.5rem 1.5rem 1rem 1.5rem;
+            border: 0.12rem solid #ffff00;
+            -webkit-border-radius: 35px;
+            -moz-border-radius: 35px;
+            border-radius: 35px;
+            transition: background-color 0.8s ease;
+        }
+        
+        .contact-btn:hover {
+            background-color: #ffff00;
+        }
+        
+        .contact-check ul {
+            display: inline-block;
+        }
+        
+        .field-border {
+            border: 0.12rem solid #ffff00;
+            -webkit-border-radius: 0px 0px 40px 0px;
+            -moz-border-radius: 0px 0px 40px 0px;
+            border-radius: 0px 0px 40px 0px;
+        }
+        
+        .message-text {
+            float: left;
+            width: 100%;
+            border: 0.12rem solid #ffff00;
+            -webkit-border-radius: 0px 0px 40px 0px;
+            -moz-border-radius: 0px 0px 40px 0px;
+            border-radius: 0px 0px 40px 0px;
+        }
+        /* --------------------------------Footer Styling */
+        
+        .footer {
+            color: #ffffff;
+            background-color: #528199;
+            padding-top: 0.8rem;
+        }
+        
+        .footer-text {
+            color: #52A7D1;
+        }
+        
         .social-links {
-            padding: inherit;
+            padding: 8px 21px;
             float: right;
         }
-    }
+        
+        .social-links ul {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .social-links li a i {
+            width: 32px;
+            height: 32px;
+            padding: 0.5rem;
+            border-radius: 50%;
+            color: #333333;
+            background-color: #a6a6a6;
+            transition: all 0.35s ease-in-out;
+            -moz-transition: all 0.35s ease-in-out;
+            -webkit-transition: all 0.35s ease-in-out;
+            -o-transition: all 0.35s ease-in-out;
+        }
+        
+        .social-links li a i:hover {
+            color: #fafafa;
+            ;
+            background-color: #333333;
+        }
+        
+        @media screen and (max-width:768px) {
+            .icon-left i {
+                padding: 35px;
+                color: #f2f2f2;
+                font-size: 2rem;
+            }
+            .skill-card {
+                width: 100%;
+                height: 180px;
+            }
+            .social-links {
+                padding: inherit;
+                float: right;
+            }
+        }
+        
+        @media screen and (max-width:360px) {
+            .icon-left i {
+                padding: 25px;
+                color: #f2f2f2;
+                font-size: 1.8rem;
+            }
+            .skill-card {
+                width: 100%;
+                height: 100px;
+            }
+            .social-links {
+                padding: inherit;
+                float: right;
+            }
+        }
