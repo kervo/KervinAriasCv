@@ -12,8 +12,8 @@
         background: linear-gradient(to bottom, #FFFFFF 0%, #528199 100%);
     }
     
-    .body-page1 {
-        background-image: url("img/homebackground.jpg");
+    .body-page1,
+    .body-page2 {
         position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -22,30 +22,22 @@
         overflow-x: hidden;
     }
     
+    .body-page1 {
+        background-image: url("img/homebackground.jpg");
+    }
+    
     .body-page2 {
         background-image: url("img/skillsbackground.jpg");
-        position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        z-index: -1;
     }
     /* -------------------background for pages */
     
+    .skills,
     .contact {
         background: #FFFFFF;
         background: -moz-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
         background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
         background: linear-gradient(to bottom, #FFFFFF 0%, #DBCA13 100%);
     }
-    /* unable for the moment too many colours 
-    .cv-skills {
-        background: #FFFFFF;
-        background: -moz-linear-gradient(top, #FFFFFF 0%, #52A7D1 100%);
-        background: -webkit-linear-gradient(top, #FFFFFF 0%, #52A7D1 100%);
-        background: linear-gradient(to bottom, #FFFFFF 0%, #52A7D1 100%);
-    }
-*/
     /* ---------------------Margin for SVG logo-brand*/
     
     .monogram {
@@ -97,45 +89,6 @@
     
     .section3 a {
         text-decoration: none;
-    }
-    /* Contact Page styling */
-    
-    .contact-form {
-        margin: 5% 25% 0% 25%;
-    }
-    
-    .contact-btn {
-        float: right;
-        margin-top: 1.5rem;
-        border: 0.12rem solid #ffff00;
-        -webkit-border-radius: 35px;
-        -moz-border-radius: 35px;
-        border-radius: 35px;
-        transition: background-color 0.8s ease;
-    }
-    
-    .contact-btn:hover {
-        background-color: #ffff00;
-    }
-    
-    .contact-check ul {
-        display: inline-block;
-    }
-    
-    .field-border {
-        border: 0.12rem solid #ffff00;
-        -webkit-border-radius: 0px 0px 40px 0px;
-        -moz-border-radius: 0px 0px 40px 0px;
-        border-radius: 0px 0px 40px 0px;
-    }
-    
-    .message-text {
-        float: left;
-        width: 100%;
-        border: 0.12rem solid #ffff00;
-        -webkit-border-radius: 0px 0px 40px 0px;
-        -moz-border-radius: 0px 0px 40px 0px;
-        border-radius: 0px 0px 40px 0px;
     }
     /* Text Styling */
     
@@ -345,6 +298,45 @@
     .timeline-slides {
         padding-bottom: 0.7rem;
         margin: 0;
+    }
+    /* Contact Page styling */
+    
+    .contact-form {
+        margin: 5% 15% 0% 15%;
+    }
+    
+    .contact-btn {
+        float: right;
+        margin: 0.5rem 1.5rem 1rem 1.5rem;
+        border: 0.12rem solid #ffff00;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        transition: background-color 0.8s ease;
+    }
+    
+    .contact-btn:hover {
+        background-color: #ffff00;
+    }
+    
+    .contact-check ul {
+        display: inline-block;
+    }
+    
+    .field-border {
+        border: 0.12rem solid #ffff00;
+        -webkit-border-radius: 0px 0px 40px 0px;
+        -moz-border-radius: 0px 0px 40px 0px;
+        border-radius: 0px 0px 40px 0px;
+    }
+    
+    .message-text {
+        float: left;
+        width: 100%;
+        border: 0.12rem solid #ffff00;
+        -webkit-border-radius: 0px 0px 40px 0px;
+        -moz-border-radius: 0px 0px 40px 0px;
+        border-radius: 0px 0px 40px 0px;
     }
     /* Footer Styling */
     
