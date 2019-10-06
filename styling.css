@@ -31,8 +31,7 @@
         }
         /* -------------------background for pages */
         
-        .contact,
-        .skills {
+        .contact {
             background: #FFFFFF;
             background: -moz-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
             background: -webkit-linear-gradient(top, #FFFFFF 0%, #DBCA13 100%);
@@ -469,6 +468,7 @@
             }
             .skill-card {
                 padding: 20px;
+                height: 80px;
             }
             .social-links {
                 padding: inherit;
@@ -484,6 +484,7 @@
             }
             .skill-card {
                 padding: 15px;
+                height: 60px;
             }
             .social-links {
                 padding: inherit;

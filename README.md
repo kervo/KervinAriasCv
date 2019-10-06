@@ -19,16 +19,16 @@ After some feedback from users, I decided to change the colour scheme based on t
 * `#528199`
 * `#519364`
 
-Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in all pages, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
+Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in the home page, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
 (https://github.com/kervo/user-centric/blob/master/docs/Copy%20of%20Copy%20of%20milestone-project-prototype.pdf)
 
-> The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer?
+> The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer? this is an external link to my wordpress blog.
 
 *Skills Page*
-This page shows the software tools that I can use.
+This page shows the areas of graphic desig that I can work on.
 
 *CV/Work**
-Further information about my CV and roles in companies. Font Awesome is used to illustrate the type of industries that's worked for.
+Further information about my CV and roles in companies. Font Awesome is used to illustrate the type of industries that I've worked for.
 
 *Contact page**
 With a form to send me an email.
@@ -42,9 +42,9 @@ Features
 
 ## Work/Skills Timeline
 
-My class timeline is based on (http://bestjquery.com/tutorial/timeline/demo72/#) I didn't copy the code, I just used to guide my layout design and to challenge myself to get a code by looking at this sample.
+My class timeline is contains a slideshow with a selection of designs.
 
-I customised the decoration of my list item by using a svg graphic from this source (hhttps://www.flaticon.com/)
+I customised the decoration of my `ul` list items by using a svg graphic from this source (hhttps://www.flaticon.com/)
 
 
 
