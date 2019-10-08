@@ -3,14 +3,16 @@ User Centric Milestone project for the Code Institute
 
 This project is designed to accomplish the concepts learned up to the User Centric module for the Code Institute.
 
-My name is Kervin Arias and I’m presenting here my personal portfolio with recent work samples and also my vision about design and art in a little mockup for a blog section. The name of my site is Kervo Solutions as this has been my title as a freelance graphic designer for over 10 years.
+My name is Kervin Arias and I’m presenting here my personal portfolio with recent work samples and also my skills in the graphics industry.
+
+The name of my site is Kervo Solutions as this has been my title as a freelance graphic designer for over 10 years.
 
 This how the project began (https://github.com/kervo/user-centric/blob/master/img/brainstroming.png)
 
 UX
 ============================
 
-The main goal of my site is to have an easy route for potential recruiters/employers to download my cv and browse samples of my work.
+On-line Portfolios are a key asset for professionals in creative fields, it's the communication strategy for the viewer to feel your work. 
 
 After some feedback from users, I decided to change the colour scheme based on this useful link (https://coolors.co/fcf59e-b7dbe2-7c9cac-a2c5ac-b7c4ca)
 
@@ -19,7 +21,10 @@ After some feedback from users, I decided to change the colour scheme
 * `#528199`
 * `#519364`
 
-Image gallery with samples of my work can be find at the bottom close to the footer. I decided to showcase my work in the home page, first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
+Image gallery with samples of my work can be find at the bottom close to the footer. 
+
+I decided to showcase my work in the home page first to fill up the bottom space with something useful and secondly to attract the traffic to my work or skills sections.
+
 (https://github.com/kervo/user-centric/blob/master/docs/Copy%20of%20Copy%20of%20milestone-project-prototype.pdf)
 
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer? this is an external link to my Wordpress blog.
@@ -27,7 +32,7 @@ Image gallery with samples of my work can be find at the bottom clo
 *Skills Page*
 This page shows the areas of graphic design that I can work on.
 
-> Images in here are hidden on the mobile version to keep it clean, simple, easy to read at one glance.
+> Images in this page are hidden on the mobile version to keep it clean, simple and easy to read at one glance.
 
 *CV/Work**
 Further information about my CV and roles in companies. Font Awesome is used to illustrate the type of industries that I've worked for.
