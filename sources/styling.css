@@ -23,11 +23,11 @@
         }
         
         .body-page1 {
-            background-image: url("img/homebackground.jpg");
+            background-image: url("../img/homebackground.jpg");
         }
         
         .body-page2 {
-            background-image: url("img/skillsbackground.jpg");
+            background-image: url("../img/skillsbackground.jpg");
         }
         /* -------------------background for pages */
         
@@ -226,19 +226,19 @@
         .card2,
         .card3,
         .card4 {
-            background-image: url("img/sample1.png");
+            background-image: url("../img/sample1.png");
         }
         
         .card2 {
-            background-image: url("img/sample2.png");
+            background-image: url("../img/sample2.png");
         }
         
         .card3 {
-            background-image: url("img/sample3.png");
+            background-image: url("../img/sample3.png");
         }
         
         .card4 {
-            background-image: url("img/sample4.png");
+            background-image: url("../img/sample4.png");
         }
         
         .btn-gallery {
@@ -263,7 +263,7 @@
         }
         
         .timeline ul {
-            list-style-image: url(img/bullet-point/3d.png);
+            list-style-image: url(../img/bullet-point/3d.png);
             margin: 0;
         }
         
@@ -363,15 +363,15 @@
         }
         
         .skill-card {
-            background-image: url("img/skills-img/editorial.jpg");
+            background-image: url("../img/skills-img/editorial.jpg");
         }
         
         .skill-card2 {
-            background-image: url("img/skills-img/barnding.jpg");
+            background-image: url("../img/skills-img/barnding.jpg");
         }
         
         .skill-card3 {
-            background-image: url("img/skills-img/webdesign.jpg");
+            background-image: url("../img/skills-img/webdesign.jpg");
             height: auto;
         }
         
