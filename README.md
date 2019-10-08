@@ -25,7 +25,9 @@ Image gallery with samples of my work can be find at the bottom close to the foo
 > The aim of my blog is to ask the questions: Why design and art are important for me?, How can I be a better graphic designer? this is an external link to my wordpress blog.
 
 *Skills Page*
-This page shows the areas of graphic desig that I can work on.
+This page shows the areas of graphic design that I can work on.
+
+> Images in here are hidden on the mobile version to keep it clean andf for the user to read at a quick glance the information.
 
 *CV/Work**
 Further information about my CV and roles in companies. Font Awesome is used to illustrate the type of industries that I've worked for.

@@ -212,36 +212,33 @@
             background-color: rgb(64, 64, 64, 0.5);
         }
         
-        .card1 {
-            background-image: url("img/sample1.png");
+        .card1,
+        .card2,
+        .card3,
+        .card4 {
             position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+        }
+        
+        .card1,
+        .card2,
+        .card3,
+        .card4 {
+            background-image: url("img/sample1.png");
         }
         
         .card2 {
             background-image: url("img/sample2.png");
-            position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
         }
         
         .card3 {
             background-image: url("img/sample3.png");
-            position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
         }
         
         .card4 {
             background-image: url("img/sample4.png");
-            position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
         }
         
         .btn-gallery {
@@ -316,8 +313,11 @@
         .skill-card,
         .skill-card2,
         .skill-card3 {
-            padding: 20px;
+            content: " ";
             position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
@@ -375,6 +375,7 @@
         
         .skill-card3 {
             background-image: url("img/skills-img/webdesign.jpg");
+            height: auto;
         }
         
         .bar-style {
@@ -466,10 +467,6 @@
                 color: #f2f2f2;
                 font-size: 2rem;
             }
-            .skill-card {
-                padding: 20px;
-                height: 80px;
-            }
             .social-links {
                 padding: inherit;
                 float: right;
@@ -481,10 +478,6 @@
                 padding: 25px;
                 color: #f2f2f2;
                 font-size: 1.8rem;
-            }
-            .skill-card {
-                padding: 15px;
-                height: 60px;
             }
             .social-links {
                 padding: inherit;
