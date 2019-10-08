@@ -325,11 +325,8 @@
             -moz-border-radius: 0px 0px 0px 40px;
             border-radius: 0px 0px 0px 40px;
             -webkit-animation: skills 5s ease;
+            animation: skills 5s ease;
         }
-        /* Safari 4.0 - 8.0 */
-        
-        animation: mymove 5s infinite;
-        /* Safari 4.0 - 8.0 */
         
         @-webkit-keyframes skills {
             from {
