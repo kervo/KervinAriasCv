@@ -9,6 +9,8 @@ The name of my site is Kervo Solutions as this has been my title a
 
 This how the project began (https://github.com/kervo/user-centric/blob/master/img/brainstroming.png)
 
+sources folder contains the CSS style used on this project.
+
 UX
 ============================
 
