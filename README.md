@@ -1,5 +1,5 @@
 Deployed project:
-https://kervo.github.io/user-centric/index.html
+https://kervo.github.io/KervinAriasCv/
 
 User Centric Milestone project for the Code Institute
 ============================
